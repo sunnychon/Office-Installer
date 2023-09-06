@@ -48,6 +48,13 @@ echo [%date% %time%]Installing...>>event.log
 ::Act Office
 echo [%date% %time%]Activating...>>event.log
 call .\Runtime\SOKALTE.bat -%arch%
+wscript "%~dp0\done.vbs"
+
+::run after install::
+
+
+
+:::::::::::::::::::::
 goto ext
 
 :err
