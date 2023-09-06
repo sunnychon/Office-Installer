@@ -1,0 +1,1 @@
+s = msgbox("Office Installed Successfuly.", 64, "Info")
